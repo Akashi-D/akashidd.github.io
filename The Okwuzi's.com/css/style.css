@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+}
+
+#head1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+    background-color: aqua;
+    line-height: 50px;
+    z-index: 10000;
+}
+
+#anime{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    animation-name: example;
+    animation-duration: 3s;
+    position: fixed;
+    left: 50px;
+    top: 75px;
+    animation-iteration-count: 50;
+    text-align: center;
+    cursor: pointer;
+}
+
+#anime li a{
+    position: fixed;
+    top: 65px;
+    color: black;
+    font-weight: 700;
+}
+
+@keyframes example{
+    0%{ background-color: aqua; left:50px; right: 0px;}
+    25%{background-color: red; left:100px; right: 0px;}
+    50%{background-color: white; left:100px; right: 100px;}
+    75%{background-color: purple; left:50px; right: 100px;}
+    100%{background-color: yellow; left:50px; right: 0px;}
+}
+
+
+#nav{
+    position: fixed;
+    top:50px;
+    list-style-type: none;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    z-index: 100;
+    padding-left: 800px;
+}
+
+ul li a{
+    display: block;
+    float: left;
+    width: 100px;
+    text-decoration: none;
+    color: aqua;
+    font-weight: 700;
+    text-align: center;   
+    line-height: 50px;
+}
+
+ul li a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#but11 img{
+    color: #333;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
+
+#nav-screen{
+    display: none;
+}
+
+#nav222{
+    width: 100px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top: 65px;
+    right: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#nav222 a{
+    color: aqua;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+#nav222 a:hover{
+    color: white;
+}
+
+.introInfo{
+    text-align: center;
+}
+
+h2{
+    margin: 80px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+@media screen and (max-width: 1080px){
+    #nav{
+        display: none;
+    }
+    
+    #nav-screen{
+        display: block;
+    }
+    
+    #nav222{
+        display: none;
+    }
+    
+    .social_media li{
+        position: relative;
+        left: -400px;
+    }
+
+}
+
+
+#contacting{
+    text-align: center;
+    margin-top: 170px;
+}
+
+form p{
+    height: 100px;
+}
+
+form p label{
+    font-size: 30px;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+}
+
+.submit0{
+    width: 200px;
+    background-color: black;
+    color: aqua;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: -500px
+}
+
+.submit0:hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.column{
+    width: 25%;
+    max-width: 25%;
+    flex-wrap: wrap;
+}
+
+#img img{
+    width: 100%;
+}
